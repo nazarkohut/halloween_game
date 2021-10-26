@@ -6,15 +6,10 @@ public class DestroyObjects : MonoBehaviour
 {
     Vector2 pos;
     [SerializeField] Animator animator;
-    bool isShacking = false;
-    float shake=.2f;
+
     [SerializeField] Object candy;
     
     // Start is called before the first frame update
-    void StopShaking(){
-        isShacking=false;
-        transform.position=pos;
-    }
     void Start()
     {
         pos=transform.position;
@@ -23,9 +18,6 @@ public class DestroyObjects : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // if(isShacking ==true){
-        //     transform.position=pos+UnityEngine.Random.insideUnitCircle*shake;
-        // }
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
