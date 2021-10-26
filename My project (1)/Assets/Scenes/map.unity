@@ -9507,7 +9507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6fc06a2872ba1c42a054d4f20bf8717, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingTime: 5
+  startingTime: 23
   countdown: {fileID: 2107722189}
   endGameMenu: AltEnd
 --- !u!114 &2107722189

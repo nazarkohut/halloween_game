@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class CandyCounter : MonoBehaviour
 {
     public static int Candy;
@@ -16,6 +17,9 @@ public class CandyCounter : MonoBehaviour
     void Update()
     {
         text.text = Candy.ToString();
+        if(Candy>=100){
+            SceneManager.LoadScene("WonScene");
+        }
     }
 }
 
