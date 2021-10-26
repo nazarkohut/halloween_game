@@ -35,6 +35,9 @@ TextureImporter:
   - first:
       213: 7849981455521004453
     second: left_wall
+  - first:
+      213: 4862577987027710429
+    second: side_wall
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -354,7 +357,7 @@ TextureImporter:
         width: 17
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -362,6 +365,27 @@ TextureImporter:
       bones: []
       spriteID: 5abbbb5fa8cb0fc60800000000000000
       internalID: 7849981455521004453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side_wall
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 658
+        width: 17
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1bb698ae85b7340800000000000000
+      internalID: 4862577987027710429
       vertices: []
       indices: 
       edges: []
