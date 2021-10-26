@@ -9,6 +9,7 @@ public class CandyCounter : MonoBehaviour
     void Start()
     {
         text = GetComponent<Text>();
+        Candy=0;
     }
 
     // Update is called once per frame

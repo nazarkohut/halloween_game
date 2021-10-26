@@ -59,7 +59,6 @@ public class Homer : MonoBehaviour
 
         //swap sprite direction , wether you ging right or left
         if(moveDelta.x>0){
-            Debug.Log("sadsadsad");
             transform.localScale=new Vector3(Math.Abs(transform.localScale.x),transform.localScale.y,transform.localScale.z);
         }
         else if(moveDelta.x<0)

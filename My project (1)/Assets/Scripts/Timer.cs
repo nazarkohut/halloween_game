@@ -4,8 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
-{
-    float startingTime = 10;
+{   [SerializeField]
+    float startingTime ;
     float currentTime = 0;
 
     [SerializeField] Text countdown;
@@ -19,6 +19,7 @@ public class Timer : MonoBehaviour
 
     void Update()
     {
+
         currentTime -= 1 * Time.deltaTime;
         countdown.text = currentTime.ToString("f0");
 

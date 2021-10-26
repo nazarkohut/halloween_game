@@ -23,6 +23,7 @@ public class DestroyObjects : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision) {
         if(collision.gameObject.name == "AttackHitBox"){
             // isShacking=true;
+	    Debug.Log("dasasdads");
             animator.Play("destroy");
              Invoke("ExplodeTheObject",.3f);
         }
